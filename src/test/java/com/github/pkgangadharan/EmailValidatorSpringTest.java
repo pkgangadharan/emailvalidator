@@ -1,5 +1,6 @@
-package com.example.validator;
+package com.github.pkgangadharan;
 
+import com.github.pkgangadharan.EmailValidator;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,7 +1,7 @@
-package com.example.validator;
+package com.github.pkgangadharan;
 
+import com.github.pkgangadharan.EmailValidator;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class EmailValidatorBasicTest {
 

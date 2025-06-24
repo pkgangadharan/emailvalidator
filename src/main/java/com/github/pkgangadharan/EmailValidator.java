@@ -1,4 +1,4 @@
-package com.example.validator;
+package com.github.pkgangadharan;
 
 import javax.naming.directory.*;
 import javax.naming.NamingException;
