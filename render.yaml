@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: email-validator
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: false
+    branch: main
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: JAVA_OPTS
+        value: "-Xmx512m"

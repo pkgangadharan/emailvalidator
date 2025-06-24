@@ -1,0 +1,6 @@
+email,expected
+john.doe@example.com,true
+no-at-symbol.com,false
+@missingusername.com,false
+user@yahoo.com,true
+abc@fake.tld,false

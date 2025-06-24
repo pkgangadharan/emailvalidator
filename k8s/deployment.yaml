@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: email-validator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: email-validator
+  template:
+    metadata:
+      labels:
+        app: email-validator
+    spec:
+      containers:
+      - name: email-validator
+        image: your-dockerhub-username/email-validator:latest
+        ports:
+        - containerPort: 8080

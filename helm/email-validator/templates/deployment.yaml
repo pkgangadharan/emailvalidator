@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "email-validator.fullname" . }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "email-validator.name" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "email-validator.name" . }}
+    spec:
+      containers:
+        - name: email-validator
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          ports:
+            - containerPort: 8080

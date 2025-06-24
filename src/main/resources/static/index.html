@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Validator UI</title>
+</head>
+<body>
+    <h1>Email Validator</h1>
+    <input type="text" id="email" placeholder="Enter email">
+    <button onclick="validateEmail()">Validate</button>
+    <pre id="result"></pre>
+
+    <script>
+        async function validateEmail() {
+            const email = document.getElementById("email").value;
+            const response = await fetch(`/api/email/validate?email=` + encodeURIComponent(email));
+            const data = await response.json();
+            document.getElementById("result").textContent = JSON.stringify(data, null, 2);
+        }
+    </script>
+</body>
+</html>
