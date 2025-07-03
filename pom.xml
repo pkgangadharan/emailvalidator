@@ -10,7 +10,7 @@
         <version>3.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.pkgangadharan</groupId>
+    <groupId>in.ind.pkg.utils</groupId>
     <artifactId>email-validator</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
