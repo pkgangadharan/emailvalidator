@@ -1,4 +1,4 @@
-package com.github.pkgangadharan;
+package in.ind.pkg.utils;
 
 import javax.naming.directory.*;
 import javax.naming.NamingException;

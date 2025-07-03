@@ -1,4 +1,4 @@
-package com.github.pkgangadharan;
+package in.ind.pkg.utils;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

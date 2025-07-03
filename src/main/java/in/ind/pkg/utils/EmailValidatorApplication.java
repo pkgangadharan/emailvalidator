@@ -1,4 +1,4 @@
-package com.github.pkgangadharan;
+package in.ind.pkg.utils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

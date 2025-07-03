@@ -1,4 +1,4 @@
-package com.github.pkgangadharan;
+package in.ind.pkg.utils;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

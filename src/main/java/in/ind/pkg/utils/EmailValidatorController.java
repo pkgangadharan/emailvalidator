@@ -1,6 +1,5 @@
-package com.github.pkgangadharan;
+package in.ind.pkg.utils;
 
-import com.github.pkgangadharan.EmailValidator;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
